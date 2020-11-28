@@ -1,0 +1,105 @@
+.footer {
+    height: 100%;
+    background: $bg-color;
+    position: relative;
+    .container{
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        h2{
+            color: $white;
+            margin-bottom: 10px;
+        }
+        > div{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 3rem .9rem;//48px 14px
+        }
+        .about-us{
+            h2{
+                // margin-bottom: .6rem;//10px
+            }
+
+        }
+        .newsletter{
+            h2,p{
+                margin-bottom: .6rem;//10px
+            }
+            .form-element{
+                background: #000;
+                display: inline-block;
+                input{
+                    padding: .5rem .7rem;//8px 11px
+                    border: none;
+                    background: transparent;
+                    color: $white;
+                    font-family: $Josefin;
+                    font-size: 1em;
+                    width: 74%;
+                }
+                span{
+                    float: right;
+                    background: $gradient;
+                    padding: .5rem .7rem;//8px 11px
+                    cursor: pointer;
+                    &:hover{
+                        background: $hover;
+                    }
+                }
+            }
+        }
+        .instagram{
+            div > img{
+                    display: inline-block;
+                    width: 25%;
+                    height: 50%;
+                    margin: .3rem .4rem;//5px 8px
+                    cursor: pointer;
+            }
+        } 
+        .follow{
+            div{
+                i{
+                    margin-top: 15px;
+                    color: $white;
+                    padding: 0 .4rem;// 0 6px
+                    font-size: 1.425em;
+                }
+                .fa-facebook:hover{
+                    color: #3b5998;
+                }
+                .fa-instagram:hover{
+                    color: #e1306c;
+                }
+                .fa-twitter-square:hover{
+                    color: #1da1f2;
+                }
+                .fa-youtube-square:hover{
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+    .rights{
+        justify-content: center;
+        font-family: $Josefin;
+        font-size: 1.125em;
+        h4{
+            margin-bottom: 25px;
+            a{
+                color: $white;
+            }
+        }
+    }
+    .move-up{
+        position: absolute;
+        right: 6%;
+        top: 50%;
+        span{
+            color: $midnight;
+            &:hover{
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+}

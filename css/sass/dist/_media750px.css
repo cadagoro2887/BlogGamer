@@ -1,0 +1,19 @@
+@media only screen and (max-width: 750px) {
+  header .nav .nav-menu, header .nav .nav-items {
+    flex-direction: column;
+  }
+  header .nav .nav-menu .toggle-collapse, header .nav .nav-items .toggle-collapse {
+    display: initial;
+  }
+
+  main .blog {
+    background-size: 90%;
+  }
+  main .site-content {
+    grid-template-columns: 100%;
+  }
+
+  .footer .container {
+    display: inline-block;
+  }
+}

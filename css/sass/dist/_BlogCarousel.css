@@ -1,0 +1,24 @@
+main .blog {
+  background: url("../../assets/Abract01.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+}
+main .blog .blog-post {
+  padding-top: 96px;
+}
+main .blog .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 48px 32px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+main .blog .blog-post .blog-content .blog-tittle {
+  padding: 32px 0;
+}
+main .blog .blog-post .blog-content .blog-tittle .btn-blog {
+  padding: 11px 32px;
+}

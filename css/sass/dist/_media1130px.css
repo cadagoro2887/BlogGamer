@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1130px) {
+  header .nav {
+    min-height: 5vh;
+  }
+
+  main .site-tittle {
+    height: 45vh;
+  }
+  main .blog {
+    height: 38vh;
+  }
+  main .site-content .post-content .post-image .post-info {
+    left: 2rem !important;
+    bottom: 1.2rem !important;
+    border-radius: 0% !important;
+  }
+  main .site-content .sidebar .popular-post .post-info {
+    display: none !important;
+  }
+
+  .footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

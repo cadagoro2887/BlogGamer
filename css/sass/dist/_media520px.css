@@ -1,0 +1,31 @@
+@media only screen and (max-width: 520px) {
+  header .nav .toggle-collapse {
+    width: 89% !important;
+  }
+
+  main .blog {
+    background: none;
+    height: 30vh !important;
+  }
+  main .blog .blog-post .blog-content {
+    margin: auto;
+  }
+  main .site-content .post-content .post-image .post-info {
+    display: none;
+  }
+  main .site-content .sidebar .newsletter {
+    padding-top: 5rem;
+  }
+
+  .footer .container > div {
+    padding: 1rem 0.9rem !important;
+  }
+  .footer .rights {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1rem 1.4rem;
+  }
+  .footer .move-up {
+    top: 80%;
+  }
+}

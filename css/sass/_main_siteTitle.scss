@@ -1,0 +1,28 @@
+main{
+    .site-tittle{
+        background: url("../../assets/Bg-EDITADO.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -20px;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        .site-background{
+            padding: 10rem;//160px
+            text-align: center;
+            color: $white;
+            h1,h3{
+                margin:.3rem;//4.8px
+            }
+            .btn{
+                margin: 1.3rem;//29px
+                background: $gradient;
+                &:hover{
+                    background: $hover;
+                    border: 1px solid $hover;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

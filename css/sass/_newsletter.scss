@@ -1,0 +1,31 @@
+main {
+    .site-content {
+        .sidebar {
+            .newsletter {
+                padding-top: 12rem;//192px
+                h2{
+                    margin-bottom: 1rem;//16px
+                }
+                .form-element{
+                    padding: .5rem 2rem;//8px 32px
+                    .input-element{
+                        width: 80%;
+                        height: 1.9rem; //30px
+                        padding: .3rem .5rem; // 5px 8px
+                        font-family: $Lexend;
+                        font-size: 1em;
+                    }
+                    .form-btn{
+                        border-radius: 0;
+                        padding: .8rem 32%;//13px
+                        margin: 1rem 0;//16px
+                        background: $gradient;
+                        &:hover{
+                            background: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

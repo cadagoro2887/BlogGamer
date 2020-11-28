@@ -1,0 +1,10 @@
+main .site-tittle {
+  background: url("../../assets/Bg-EDITADO.png");
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+main .site-tittle .site-background {
+  padding: 160px;
+}

@@ -1,0 +1,65 @@
+main {
+    .blog {
+        background: url("../../assets/Abract01.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 80vh;
+        width: 100%;
+        background-size: 55%;
+
+        .blog-post {
+            padding-top: 6rem;//96px
+
+            .blog-content {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 80%;
+                margin: 3rem 2rem; //48px auto
+                box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+
+                .blog-tittle {
+                    padding: 2rem 0; //32px 0
+
+                    span {
+                        display: block;
+                    }
+
+                    .btn-blog {
+                        padding: .7rem 2rem; //11px 32px
+                        background: $gradient;
+                        margin: 8px;
+                        &:hover{
+                            background: $hover;
+                        }
+                    }
+                }
+            }
+
+            .owl-nav {
+                position: absolute;
+                top: 0%;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+
+        .owl-nav .owl-prev .owl-nav-prev,
+        .owl-nav .owl-next .owl-nav-next {
+            color: $text-gray;
+            background: transparent;
+            font-size: 2em;
+        }
+
+        .owl-theme .owl-nav [class*="owl-"] {
+            outline: none;
+
+        }
+
+        .owl-theme .owl-nav [class*="owl-"]:hover {
+            background: transparent;
+            color: $midnight;
+
+        }
+    }
+}

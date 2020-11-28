@@ -1,0 +1,117 @@
+// <!----------------------- GENERAL STYLES ------------------------------>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+// <!----------------------- VARIABLES ------------------------------>
+
+// COLORS
+$text-gray :#3f4943;
+$text-light: #686666da;
+$bg-color: #0f0f0f;
+$white: #ffffff;
+$midnight: #104f55;
+
+// GRADIENT COLOR
+$gradient: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+$hover: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+// FONTS
+$Abel: 'Abel',cursiva;
+$Anton: 'Anton',cursiva;
+$Josefin: 'Josefin',cursiva;
+$Lexend: 'Lexend',cursiva;
+$Livvic: 'Livvic',cursiva;
+
+// <!----------------------- GENERAL STYLES TO LABELS ------------------------------>
+a {
+    text-decoration: none;
+    color: $text-gray;
+}
+
+ul {
+    list-style: none;
+}
+
+h1{
+    font-family: $Lexend;
+    font-size: 2.5em;
+}
+
+h2{
+    font-family: $Lexend;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;//32px
+    padding: 1rem 3rem; //16px 48px
+    font-size: 1em;//16px
+    font-family: $Livvic;
+    cursor: pointer;
+}
+
+h3{
+    font-family: $Abel;
+    font-size: 1.4em;
+}
+
+span{
+    font-family: $Abel;
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+.text-gray{
+    color: $text-gray;
+}
+
+p{
+    font-family: $Lexend;
+    color: $text-light;
+}
+// <!----------------------- CLASES GLOBALES ------------------------------>
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+// <!----------------------- CALL FONTS.CSS ------------------------------>
+@import url("../fonts.css");
+
+// <!----------------------- CALL _HEADER.SCSS ------------------------------>
+@import "header";
+
+// <!----------------------- CALL _Main_SITETITLE.SCSS ------------------------------>
+@import "main_siteTitle";
+
+// <!----------------------- CALL _BLOGCAROUSEL.SCSS ------------------------------>
+@import "BlogCarousel";
+
+// <!----------------------- CALL _SITECONTENT.SCSS ------------------------------>
+@import "siteContent";
+
+// <!----------------------- CALL _SIDEBAR.SCSS ------------------------------>
+@import "sideBar";
+
+// <!----------------------- CALL _NEWSLETTER.SCSS ------------------------------>
+@import "newsletter";
+
+// <!----------------------- CALL _POPULARTAGS.SCSS ------------------------------>
+@import "popularTags";
+
+// <!----------------------- CALL _FOOTER.SCSS ------------------------------>
+@import "footer";
+
+// <!----------------------- CALL _MEDIA520PX.SCSS ------------------------------>
+@import "media520px";
+
+// <!----------------------- CALL _MEDIA750PX.SCSS ------------------------------>
+@import "media750px";
+
+// <!----------------------- CALL _MEDIA1130PX.SCSS ------------------------------>
+@import "media1130px";

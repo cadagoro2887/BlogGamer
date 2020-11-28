@@ -1,0 +1,11 @@
+main .site-content .sidebar .newsletter {
+  padding-top: 48px;
+}
+main .site-content .sidebar .newsletter .form-element {
+  padding: 8px 32px;
+}
+main .site-content .sidebar .newsletter .form-element .input-element {
+  width: 80%;
+  height: 30px;
+  padding: 5px 8px;
+}

@@ -1,0 +1,48 @@
+main{
+    .site-content{
+        .sidebar{
+            .category{
+                h2{
+                    margin-top: 25px;
+                }
+                .category-list{
+                    text-align: center;
+                    font-family: $Livvic;
+                    .list-items{
+                        background: $gradient;
+                        padding: .5rem 1rem;// 7px 16px
+                        margin: .8rem auto; //13px 0
+                        border-radius: 3rem;//48px
+                        width: 70%;
+                        display: flex;
+                        justify-content: space-between;
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+            
+            .popular-post{
+                h2{
+                    padding-top: 8rem;//128px
+                }
+                .post-content{
+                    padding: 1rem 0;//16px 0
+                    .post-info{
+                        padding: .5rem .1rem !important;//8px 1.6px
+                        bottom: 0px !important;
+                        left: 1.5rem !important; //23px
+                        border-radius: 0rem !important;
+                        background: $white !important;
+                    }
+                    .post-tittle{
+                        a{
+                            font-size: 1.125em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

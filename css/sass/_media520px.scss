@@ -1,0 +1,52 @@
+@media only screen and(max-width:520px) {
+    header {
+        .nav {
+            .toggle-collapse {
+                width: 89% !important;
+            }
+        }
+    }
+
+    main {
+        .blog {
+            background: none;
+            height: 30vh !important;
+
+            .blog-post {
+                .blog-content {
+                    margin: auto;
+                }
+            }
+        }
+
+        .site-content {
+            .post-content {
+                .post-image .post-info {
+                    display: none;
+                }
+            }
+
+            .sidebar {
+                .newsletter {
+                    padding-top: 5rem;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .container>div {
+            padding: 1rem .9rem !important;
+        }
+
+        .rights {
+            font-size: .9em;
+            text-align: center;
+            padding: 1rem 1.4rem;
+        }
+
+        .move-up {
+            top: 80%;
+        }
+    }
+}

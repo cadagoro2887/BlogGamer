@@ -1,0 +1,89 @@
+header {
+    .nav {
+        background: #fff;
+        padding: 0 2rem;// 0 32px
+        height: 0;
+        min-height: 10vh;
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+
+        .nav-menu {
+            justify-content: space-between;
+
+            .nav-brad a {
+                font-size: 1.6em;
+                padding: 1.6rem 0; //16px 0
+                display: block;
+                font-family: $Lexend;
+                font-size: 1.6em;
+            }
+
+            .toggle-collapse {
+                position: absolute;
+                top: 0%;
+                width: 90%;
+                cursor: pointer;
+                display: none;
+                .toggle-icons{
+                    display: flex;
+                    justify-content: flex-end;
+                    padding: 27px 0;
+                    i{
+                        font-size: 1.4em;
+                        color: $text-gray;
+                    }
+                }
+            }
+
+            .nav-items {
+                display: flex;
+                margin: 0;
+
+                .nav-link {
+                    padding: 1.6rem 1rem; //26px 16px
+                    font-size: 1.125em;
+                    position: relative;
+                    font-size: 1.125em;
+                    font-family: $Abel;
+
+                    &:hover {
+                        background: $midnight;
+                    }
+
+                    &:hover a {
+                        color: $white;
+                    }
+                }
+            }
+
+            .social {
+                padding: 1.4rem 0; //23px
+                font-size: 1.2em;
+
+                i {
+                    padding: .2rem;//3px
+                }
+
+                .fa-facebook:hover {
+                    color: #3b5998;
+                }
+
+                .fa-instagram:hover {
+                    color: #e1306c;
+                }
+
+                .fa-twitter-square:hover {
+                    color: #1da1f2;
+                }
+
+                .fa-youtube-square:hover {
+                    color: #ff0000;
+                }
+            }
+        }
+
+    }
+    .collapse{
+        height: 30rem;//495px
+    }
+}
